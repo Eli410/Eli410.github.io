@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name="description" content="Eli Chen">
+    <meta name="google-site-verification" content="wHP-T0fJUrlLoWzVSb01A9d0X_fEYf-7dSGnOZX1GjE" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script src="javascripts/jquery3_1_1.min.js"></script>
+    <script src="javascripts/particles.min.js"></script>
+    <title>Eli Chen</title>
+  </head>
+
+  <body>
+    <!--navigator-->
+    <div class="Topnav">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="row">
+                <div class="collapse navbar-collapse col-md-offset-2">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home"> Home</a></li>
+                        <li><a href="projects.html" data-toggle="tooltip" data-placement="bottom" title="Projects"> Projects and Experience</a></li>
+                        <li><a href="videos.html" data-toggle="tooltip" data-placement="bottom" title="Videos"> Videos</a></li>
+                        <li><a href="contact.html" data-toggle="tooltip" data-placement="bottom" title="Contact"> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- HEADER -->
+    <div id="particles-js" class="outer">
+        <header class="inner">
+          <script src="app.js"></script>
+            <div class="row">
+                <div class ="titleName col-md-offset-1 col-sm-offset-1 col-lg-offset-1 col-md-4 col-sm-4 col-lg-4">
+                    <div class="name_title">Ziyang (Eli)   Chen </div>
+                    <h2 id="project_tagline"><strong>#include &lt;exploring&gt;</strong><br>
+                    <strong>#include&nbsp;&lt;fun&gt;</strong><br>
+                    <strong>#include&nbsp;&lt;music&gt;</strong><br>
+                    <strong>#include&nbsp;&lt;love&gt;</strong><br>
+                    <strong>#include&nbsp;"happiness.cpp"</strong><br>
+                    </h2>
+                </div>
+                <div class = "Headshot col-md-offset-4 col-sm-offset-4 col-lg-offset-4 col-sm-4 col-md-4 col-lg-4">
+                    <img id="myphoto" src="images/head-1.png">
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div class="intro" id="intro">
+          <h3 class="intro-title"><a id="introduction"></a><span class="fas fa-chess-knight" style="font-size: 2em; color: rgb(238, 169, 104);"></span> Know Ziyang(Eli) in 1 minute</h3>
+            <li> 🌍 Moved from Bay Area, California to Houston, Texas</li>
+            <li> 🎒 12th grade student at Seven Lakes High School </li>
+            <li> 🎓 Look forward to be the class of 2022 at university </li>
+            <li> ⚙️ Love to build (and break) DIY projects in our grague  </li>
+            <li> 🤖 Pround to be a student mentor of VEX Robotics Club </li>
+            <li> ✨ Volunteered in a remote English education program for kids in other coutries </li>
+            <li> 💻 Self-taught programmer and have hands-on experience in Python, NodeJS, HTML </li>
+            <li> 🎸 Amatuer Guitar Player </li>
+            <li> ❤️ Optimist. Striving for perfection and awesomeness.</li>
+        </div>
+
+        <div class="followMe">
+            <hr>
+            <strong>Welcome to follow me on social media! :)</strong>
+            <div class="socialLogo">
+              <a href="https://www.facebook.com/fiona.chen.376043"><img class="socialImg" src="images/social%20media/fb.png" alt="Facebook"></a>
+              <a href="https://www.youtube.com/channel/UCiditZXqqHYF0GmpMEFSadA"><img class="socialImg" src="images/social media/youtube.png" alt="Youtube"></a>
+              <a href="https://www.linkedin.com/in/fiona-chen-6aa863111/"><img class="socialImg" src="images/social%20media/linkedin.png" alt="LinkedIn"></a>
+              <a href="https://github.com/siumaai"><img class="socialImg" src="images/social%20media/github.png" alt="Github Logo"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+          <div class="col-lg-6 col-md-6 col-sm-4">
+            <p>© 2020 Eli Chen</p>
+          </div>
+      </footer>
+    </div>
+
+    <!-- <script src="javascripts/main.js"></script> -->
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+      $(function() {
+        $("#intro").hide().show(1500);
+        $("#socialButton").on('mousemove', function() {
+          //var id = $(this).attr('data-id');
+          // $(this).fadeOut(400);
+        });
+      });
+    </script>
+    </div>
+  </body>
+</html>
